@@ -208,6 +208,12 @@ a:visited {
   padding-top: 20px;
 }
 
+@media screen and (max-width: 479px) {
+  .info-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 .text-block-2 {
   margin-right: auto;
