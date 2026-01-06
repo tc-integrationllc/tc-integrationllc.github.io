@@ -1,7 +1,7 @@
 .body {
     padding-top: 0px;
     border-radius: 0px;
-    background-image: url("../assets/images/backgound.jpg");
+    background-image: url("../images/backgound.jpg");
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
