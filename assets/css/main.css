@@ -90,6 +90,19 @@
   color: rgb(134, 134, 134);
 }
 
+.button, .button:link, .button:visited {
+  color: rgb(134, 134, 134) !important;
+  text-decoration: none; /* Removes the underline if present */
+}
+
+.button:hover {
+  background-color: rgb(50, 50, 50); /* Slightly lighter than the base rgb(30, 30, 30) */
+  color: #ffffff; /* Changes text to pure white for better contrast */
+  border-color: rgb(100, 100, 100); /* Brightens the border */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Makes the change smooth */
+  cursor: pointer; /* Ensures the 'hand' icon appears */
+}
+
 @media screen and (max-width: 991px) {
   .button {
     margin-right: auto;
@@ -128,6 +141,32 @@
   padding: 10px;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box; 
+    margin-left: 0;
+    margin-right: 0;
+    border-left: 1px solid rgb(56, 56, 56);
+    border-right: 1px solid rgb(56, 56, 56);    
+    background-color: rgb(35, 35, 35); 
+}
+
+@media screen and (max-width: 479px) {
+  .sticky {
+    padding: 5px;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .sticky .button {
+    font-size: 14px;
+    padding: 8px;
+    margin: 2px;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .content-section {
     padding-left: 5px;
@@ -142,6 +181,7 @@
   color: rgb(145, 145, 145);
   font-weight: 400;
   text-align: left;
+  scroll-margin-top: 100px; 
 }
 
 .heading h1 :after {
