@@ -60,7 +60,6 @@
   flex-flow: row;
   grid-auto-columns: 1fr;
   gap: 80px;
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
   background-color: rgb(35, 35, 35);
 }
@@ -178,7 +177,7 @@
   margin-right: auto;
   margin-left: auto;
   padding-left: 60px;
-  color: rgb(145, 145, 145);
+  color: #d1d1d1;
   font-weight: 400;
   text-align: left;
   scroll-margin-top: 100px; 
@@ -198,7 +197,7 @@
   margin-left: auto;
   padding-right: 60px;
   padding-left: 70px;
-  color: rgb(145, 145, 145);
+  color: #d1d1d1;
 }
 
 .contact-section {
